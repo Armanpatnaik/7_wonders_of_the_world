@@ -1,0 +1,71 @@
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<title>Feedback Form</title>
+<link rel="stylesheet" href="light.css" id="mode">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+
+<body class="survey">
+    <header>
+        <a href="index.html" class="brand">Wonders7</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          <div class="navigation-items">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+              <a class="dropbtn">Explore</a>
+              <div class="dropdown-content">
+                <a href="tajmahal.html">Taj Mahal</a>
+                <a href="petra.html">Petra</a>
+                <a href="machu.html">Machu Picchu</a>
+                <a href="chichen.html">Chichén Itzá</a>
+                <a href="china.html">Great Wall of China</a>
+                <a href="christ.html">Christ the Redeemer</a>
+                <a href="col.html">Colosseum</a>
+              </div>
+            </div>
+            <a href="team.html">Team</a>
+            <a href="survey.html">Survey</a>
+            <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
+          </div>
+        </div>
+        
+      </header>
+
+    <div class="container">
+
+        <form action="">
+
+            <h2 class="top">Feedback Form</h2>
+            <p class="fill">Please fill text in all the Fields</p>
+
+            <p class="Name">Your Name <input type="text" name="name" required placeholder="Your Name"></p>
+
+            <p>Your Email <input type="email" name="email" id="email" required placeholder="Your Email"></p>
+
+            <p>Message <br> <textarea name="message" id="message" cols="100" rows="8" required placeholder="Your Message to Us"></textarea></p>
+            <h3>Rating:</h3>
+            <fieldset class="rating">
+                <input type="radio" id="star5" name="rating" value="5" required><label for="star5">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1">&#9733;</label>
+            </fieldset>
+            <br><br>
+            <div style="text-align:center">  
+                <input type="submit" /> 
+                <input type="reset" value="Reset"> 
+            </div>
+    
+             
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
